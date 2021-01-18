@@ -1,0 +1,27 @@
+# os
+SHEL    : %s
+SHELL   : %s
+ROOTSU  : su %U -c "%s"
+
+# oracle sqlplus/sqlstat
+SQLF    : amsqlfile.sh -s %t %e %u %s
+SQLS    : amsqlstat.sh %e %u "%s"
+
+# oracle export/import
+EXP     : amexport.sh userid=%u %s
+IMP     : amimport.sh userid=%u %s
+
+# oracle datapump export/import
+EXPDP   : amexpdp.sh userid=%u %s
+IMPDP   : amimpdp.sh userid=%u %s
+
+# oracle sql*loader
+LDRF    : amsqlldr.sh %u %s
+
+# plugins
+MAIL    : amsendmail.sh %s
+EOSCHKVER     : amsqlfile.sh -s %u find_fineos_version.sql "%s" SUCC_WHEN_FOUND
+EOSCHKDONE    : amsqlfile.sh -s %u find_fineos_version.sql "%s" FAIL_WHEN_FOUND
+EOSCHKSCPT    : amsqlfile.sh -s %u find_fineos_script.sql "%s" SUCC_WHEN_FOUND
+EOSCHKSCPTDONE: amsqlfile.sh -s %u find_fineos_script.sql "%s" FAIL_WHEN_FOUND
+

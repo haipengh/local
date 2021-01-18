@@ -1,0 +1,13 @@
+# $Header: /u999/cvsadmin/cms_rep/repository/local/etc/amenv.inactive,v 1.1 2010/11/14 20:48:14 hongh Exp $
+# -----------------------------------------------------------------------------------------------
+# Script  : amenv.outage
+# Purpose : this is AM global exclusion list, add one line per environment as:
+#           <env_name>
+# Notes   : this file is per host basis and is NOT maintained by CVS source code system.
+# Changes :
+#           Seq Name          Date       Description
+#           --- ------------- ---------- --------------------------------------------------------
+#           000               2005/06/14 Initial creation.
+# -----------------------------------------------------------------------------------------------
+#
+

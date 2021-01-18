@@ -1,0 +1,13 @@
+# $HOME/.mailrc
+# alias <alias_name> <email_address1>,<email_address2>,....
+alias me        haipeng.hong@acc.co.nz
+alias DBA       haipeng.hong@acc.co.nz
+alias oracle    haipeng.hong@acc.co.nz
+alias orahris   haipeng.hong@acc.co.nz
+alias oravcf    haipeng.hong@acc.co.nz
+alias oraclenfr haipeng.hong@acc.co.nz
+alias grid      haipeng.hong@acc.co.nz
+alias oraagent  haipeng.hong@acc.co.nz
+alias applmgr   haipeng.hong@acc.co.nz
+alias cdbuser   haipeng.hong@acc.co.nz
+alias hongh     haipeng.hong@acc.co.nz
